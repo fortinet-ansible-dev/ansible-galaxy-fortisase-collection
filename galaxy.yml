@@ -1,0 +1,23 @@
+namespace: "fortinet"
+name: "fortisase"
+version: "1.0.0"
+readme: "README.md"
+authors:
+    - "Xinwei Du (@dux-fortinet)"
+description: "The FortiSASE Ansible Collection."
+license:
+    - "GPL-3.0-or-later"
+tags:
+    - fortinet
+    - fortisase
+    - ansible
+    - networking
+    - security
+    - firewall
+dependencies: { "ansible.netcommon": "*" }
+repository: "https://github.com/fortinet-ansible-dev/ansible-galaxy-fortisase-collection"
+documentation: "https://ansible-galaxy-fortisase-docs.readthedocs.io/en/latest"
+homepage: "https://fortinet.com"
+issues: "https://github.com/fortinet-ansible-dev/ansible-galaxy-fortisase-collection/issues"
+build_ignore:
+    - ".github"

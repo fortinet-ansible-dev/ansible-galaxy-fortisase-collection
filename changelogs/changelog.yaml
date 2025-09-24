@@ -1,0 +1,208 @@
+ancestor: null
+releases:
+  1.0.0:
+    changes:
+      minor_changes:
+        - Support 25.3.a FortiSASE schema.
+      release_summary: Release 1.0.0
+    fragments:
+      - 1.0.0.yml
+    modules:
+      - description: FSSO Agent Resource
+        name: auth_fsso_agents
+        namespace: ""
+      - description: LDAP Resource
+        name: auth_ldap_servers
+        namespace: ""
+      - description: RADIUS Resource
+        name: auth_radius_servers
+        namespace: ""
+      - description: SWG User SSO Resource
+        name: auth_swg_saml_server
+        namespace: ""
+      - description: User Group Resource
+        name: auth_user_groups
+        namespace: ""
+      - description: User Resource
+        name: auth_users
+        namespace: ""
+      - description: VPN User SSO Resource
+        name: auth_vpn_saml_server
+        namespace: ""
+      - description: DEM Custom SaaS Applications Resource
+        name: dem_custom_saas_apps
+        namespace: ""
+      - description: DEM SPA Application Resource
+        name: dem_spa_applications
+        namespace: ""
+      - description: Connection Profile Resource
+        name: endpoint_connection_profiles
+        namespace: ""
+      - description: FSSO Profile Resource
+        name: endpoint_fsso_profiles
+        namespace: ""
+      - description: Group & AD Users Profile Resource
+        name: endpoint_group_ad_user_profiles
+        namespace: ""
+      - description: Group-Based Invitation Code Resource
+        name: endpoint_group_invitation_codes
+        namespace: ""
+      - description: Endpoint Policy Resource
+        name: endpoint_policies
+        namespace: ""
+      - description: Protection Profile Resource
+        name: endpoint_protection_profiles
+        namespace: ""
+      - description: Sandbox Profile Resource
+        name: endpoint_sandbox_profiles
+        namespace: ""
+      - description: Settings Profile Resource
+        name: endpoint_setting_profiles
+        namespace: ""
+      - description: ZTNA Profile Resource
+        name: endpoint_ztna_profiles
+        namespace: ""
+      - description: ZTNA Rule Resource
+        name: endpoint_ztna_rules
+        namespace: ""
+      - description: ZTNA Tag Resource
+        name: endpoint_ztna_tags
+        namespace: ""
+      - description: Get FortiSASE Facts
+        name: fortisase_facts
+        namespace: ""
+      - description: Send generic FortiSASE API request.
+        name: fortisase_generic
+        namespace: ""
+      - description: FortiAP SSID Resource
+        name: infra_ssids
+        namespace: ""
+      - description: DNS Rule Resource
+        name: network_dns_rules
+        namespace: ""
+      - description: Host Group Resource
+        name: network_host_groups
+        namespace: ""
+      - description: Host Resource
+        name: network_hosts
+        namespace: ""
+      - description: Implicit DNS Rule Resource
+        name: network_implicit_dns_rules
+        namespace: ""
+      - description: Internet Service Resource
+        name: network_internet_services
+        namespace: ""
+      - description: Secure Private Access Resource
+        name: private_access_network_configuration
+        namespace: ""
+      - description: Secure Private Access Resource
+        name: private_access_service_connections
+        namespace: ""
+      - description: Antivirus Profile Resource
+        name: security_antivirus_profile
+        namespace: ""
+      - description: Custom Application Signature Resource
+        name: security_app_custom_signatures
+        namespace: ""
+      - description: Application Control Profile Resource
+        name: security_application_control_profile
+        namespace: ""
+      - description: Certificate Resource
+        name: security_cert_local_certs
+        namespace: ""
+      - description: Certificate Resource
+        name: security_cert_remote_ca_certs
+        namespace: ""
+      - description: DLP Dictionary Resource
+        name: security_dlp_dictionaries
+        namespace: ""
+      - description: DLP Exact Data Match Resource
+        name: security_dlp_exact_data_matches
+        namespace: ""
+      - description: DLP File Pattern Resource
+        name: security_dlp_file_patterns
+        namespace: ""
+      - description: DLP Fingerprint Database Resource
+        name: security_dlp_fingerprint_databases
+        namespace: ""
+      - description: DLP Profile Resource
+        name: security_dlp_profile
+        namespace: ""
+      - description: DLP Sensor Resource
+        name: security_dlp_sensors
+        namespace: ""
+      - description: DNS Filter Profile Resource
+        name: security_dns_filter_profile
+        namespace: ""
+      - description: Domain Threat Feed Resource
+        name: security_domain_threat_feeds
+        namespace: ""
+      - description: Endpoint to Endpoint Policy Resource
+        name: security_endpoint_to_endpoint_policies
+        namespace: ""
+      - description: File Filter Profile Resource
+        name: security_file_filter_profile
+        namespace: ""
+      - description: FortiGuard Local Category Resource
+        name: security_fortiguard_local_categories
+        namespace: ""
+      - description: Internal Policy Resource
+        name: security_internal_policies
+        namespace: ""
+      - description: Internal Reverse Policy Resource
+        name: security_internal_reverse_policies
+        namespace: ""
+      - description: IP Threat Feed Resource
+        name: security_ip_threat_feeds
+        namespace: ""
+      - description: IPS Custom Signature Resource
+        name: security_ips_custom_signatures
+        namespace: ""
+      - description: IPS Profile Resource
+        name: security_ips_profile
+        namespace: ""
+      - description: Onetime Schedule Resource
+        name: security_onetime_schedules
+        namespace: ""
+      - description: Outbound Policy Resource
+        name: security_outbound_policies
+        namespace: ""
+      - description: PKI User Resource
+        name: security_pki_users
+        namespace: ""
+      - description: Profile Group Resource
+        name: security_profile_group
+        namespace: ""
+      - description: Recurring Schedule Resource
+        name: security_recurring_schedules
+        namespace: ""
+      - description: Schedule Group Resource
+        name: security_schedule_groups
+        namespace: ""
+      - description: Service Group Resource
+        name: security_service_groups
+        namespace: ""
+      - description: Service Resource
+        name: security_services
+        namespace: ""
+      - description: SSL Inspection Profile Resource
+        name: security_ssl_ssh_profile
+        namespace: ""
+      - description: URL Threat Feed Resource
+        name: security_url_threat_feeds
+        namespace: ""
+      - description: Video Filter Profile Resource
+        name: security_video_filter_profile
+        namespace: ""
+      - description: Video Filter Youtube API Key Resource
+        name: security_video_filter_youtube_key
+        namespace: ""
+      - description: Web Filter Profile Resource
+        name: security_web_filter_profile
+        namespace: ""
+    plugins:
+      httpapi:
+        - description: HttpApi Plugin for FortiSASE
+          name: fortisase
+          namespace: null
+    release_date: "2025-09-24"
